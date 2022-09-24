@@ -1,0 +1,43 @@
+.window {
+    background-color: white;
+    height: 90vh;
+    width: 80vw;
+    display: inline-block;
+} 
+.image {
+    float: right; 
+    background-image: url('../imgs/WhatsappBg.jpg');
+    background-size: cover;
+    height: 90vh;
+    width: 50vw;
+    border-radius: 3px;
+}
+.image.open{
+    background-image: none;
+    background-color: #E5DDD5;
+}
+.contactPerfil{
+    background-color: #EDEDED;
+    width: 100px;
+    height: 8vh;
+    width: 50vw;
+    position: relative;
+    top: 0px;
+
+    border-top-right-radius: 3px;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+}
+.contactPerfil > .picture {
+    margin-left: 15px;
+}
+.contactPerfil .textDialog{
+    height: 50px;
+    width: 450px;
+}
+.textDialog > h4 {
+    text-align: left;
+    position: relative;
+    margin: 0;
+    top: 15px;
+}

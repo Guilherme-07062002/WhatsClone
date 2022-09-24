@@ -1,0 +1,51 @@
+.msgBar {
+    height: 60px;
+    width: 50vw;
+    background-color: #EFEFF0;
+    position: absolute;
+    bottom: 10px;
+}
+
+#msg {
+    padding: 10px;
+    margin: 13px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    height: 23px;
+    width: 500px;
+    padding-bottom: 5px;
+    resize: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#msg::placeholder {
+
+    padding: 2px;
+    color: rgb(160, 160, 160);
+}
+
+.sendMsg {
+    border-radius: 10px;
+    position: relative;
+    float: right;
+    top: 340px;
+    height: 60px;
+    width: 300px;
+    margin-right: 10px;
+
+}
+
+.sendMsg>p {
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.sendMsg.send {
+    background-color: #DBFAC5;
+    transition: 1s;
+}
